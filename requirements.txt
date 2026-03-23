@@ -1,0 +1,2 @@
+# Python标准库项目，无需额外依赖
+# Python version >= 3.6
