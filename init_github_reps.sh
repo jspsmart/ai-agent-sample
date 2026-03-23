@@ -9,7 +9,7 @@ green_echo() {
 red_echo() {
     echo -e "\033[31m$1\033[0m"
 }
-
+ 
 # 步骤1：检查当前目录是否已存在 Git 仓库
 if [ -d ".git" ]; then
     red_echo "❌ 当前目录已存在 .git 文件夹，已是 Git 仓库，退出执行！"
